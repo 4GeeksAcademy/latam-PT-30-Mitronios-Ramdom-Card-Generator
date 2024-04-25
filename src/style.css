@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+#card {
+  width: 30rem;
+  height: 45rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  font-size: 70px;
+}
+
+#number {
+  text-align: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+#bottomSuit {
+  align-self: end;
+  text-align: end;
+  padding-bottom: 15rem;
+  rotate: 180deg;
+}
